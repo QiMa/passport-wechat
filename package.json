@@ -1,0 +1,26 @@
+{
+  "name": "passport-wechat",
+  "version": "1.1.0",
+  "main": "lib/index.js",
+  "description": "Fork of passport-wechat, but compatible with loopback framework",
+  "bugs": "",
+  "author": "Qi Ma <mq@luckyzune.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qima/passport-wechat.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "passport",
+    "wechat",
+    "loopback"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "debug": "latest",
+    "passport": "^0.2.0",
+    "passport-strategy": "^1.0.0",
+    "wechat": "latest",
+    "wechat-oauth": "^1.0.1"
+  }
+}
